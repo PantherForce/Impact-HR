@@ -4,7 +4,7 @@ import Image from "next/image";
 import ContentContainer from "./ContentContainer";
 
 interface FeatureCardProps {
-  icon: StaticImageData;
+  icon: string;
   title: string;
   features: string[];
 }
