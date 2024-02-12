@@ -8,7 +8,7 @@ const AboutUs = () => {
         <div className="bg-custom-blue  h-[80vh] md:h-[54vh] xl:h-[40vh] ">
           <div className="flex flex-col justify-center items-center">
             <h1 className="text-2xl mt-6 md:text-4xl font-bold">About Us</h1>
-            <p className=" m-14 text-center">
+            <p className=" m-14 text-left md:text-center">
               At Impact HR, we understand the challenges faced by recruiters in
               todays competitive job market. Our platform serves as a bridge,
               connecting recruiters to a vast network of companies offering

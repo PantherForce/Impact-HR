@@ -16,8 +16,8 @@ const HearfromUs = () => {
                 platform connected us with a talent sourcing tool that helped us
                 find exceptional candidates faster than ever before.
               </h2>
-              <p className="text-custom-btn font-bold">Rivera Simons</p>
-              <p className="text-custom-btn font-bold">
+              <p className="text-custom-btn  font-bold">Rivera Simons</p>
+              <p className="text-custom-btn ml-10 md:ml-0 font-bold">
                 VP - Human Resources, TalentConnect Solutions
               </p>
             </div>

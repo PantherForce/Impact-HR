@@ -1,6 +1,7 @@
 // components/NetworkOfResources.tsx
 import React from "react";
 import ResourceCard from "./ResourceCard";
+import ContentContainer from "./ContentContainer";
 
 // Define the resource items here or fetch them from an API or external source
 const resourceItems = [
@@ -38,16 +39,16 @@ const resourceItems = [
     description:
       "Access a wealth of HR resources and knowledge through our partner companies' HR knowledge banks. Stay updated with the latest industry trends, best practices, and legal compliance guidelines.",
     imageSrc: "/img/section-three-five.png", // Update with the correct path to your image
-    iconBgColor: "bg-blue-200", // Update with the correct Tailwind color class
+    iconBgColor: "bg-blue-200",
   },
 ];
 
 const NetworkOfResources: React.FC = () => {
   return (
-    <div className="py-10">
-      <div className="container mx-auto px-4">
+    <div className="py-10 mx-0 md:mx-28">
+      <div className="mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-12">
-          The Network Of Resources We Provide
+          The network of resources we provide
         </h2>
         {resourceItems.map((item, index) => (
           <ResourceCard

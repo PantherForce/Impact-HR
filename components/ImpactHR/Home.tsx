@@ -7,21 +7,24 @@ import ContentContainer from "./ContentContainer";
 
 const RecruitmentBanner: React.FC = () => {
   return (
-    <div className="flex justify-between items-center px-8 py-8">
+    <div className="flex justify-between items-center px-10 md:px-16 py-8">
       <ContentContainer>
         <div className="space-y-4">
           <h1 className="md:text-4xl text-2xl font-bold text-gray-800">
-            Uniting Recruiters With <br /> High-Impact Recruitment <br />{" "}
+            Uniting recruiters with <br /> high-impact recruitment <br />{" "}
             Solutions
           </h1>
 
-          <p className="text-gray-600">
-            The Recruiter’s One-Stop Destination For Connecting With Top-Notch
-            Software & Platforms. Streamline Your Hiring Process With Ease.
+          <p className="text-gray-600 ">
+            The recruiter’s one-stop destination for connecting with <br />{" "}
+            top-notch software & platforms. Streamline your hiring process with
+            ease.
           </p>
-          <button className="bg-custom-btn mt-4 text-white px-6 py-2 rounded shadow hover:bg-blue-600 transition duration-200">
-            Talk To Us
-          </button>
+          <a>
+            <button className="bg-custom-btn mt-4 text-white px-6 py-2 rounded shadow transition duration-200">
+              Talk To Us
+            </button>
+          </a>
         </div>
       </ContentContainer>
       {/* Replace with your image path */}
