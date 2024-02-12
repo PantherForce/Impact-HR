@@ -22,7 +22,7 @@ const RecruitmentBanner: React.FC = () => {
           </p>
           <a>
             <button className="bg-custom-btn mt-4 text-white px-6 py-2 rounded shadow transition duration-200">
-              Talk To Us
+              Talk to us
             </button>
           </a>
         </div>

@@ -7,10 +7,12 @@ import HearfromUs from "../../components/ImpactHR/HearfromUs";
 import ContactForm from "../../components/ImpactHR/ContactForm";
 import NetworkOfResources from "../../components/ImpactHR/NetworkOfResources";
 import Footer from "../../components/ImpactHR/Footer";
+import Navbar from "../../components/ImpactHR/Navbar";
 
 const page = () => {
   return (
     <>
+      <Navbar />
       <Home />
       <AboutUs />
       <NetworkOfResources />

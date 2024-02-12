@@ -5,7 +5,7 @@ import ContentContainer from "./ContentContainer";
 const Footer: React.FC = () => {
   return (
     <footer>
-      <div className="flex mx-20 flex-wrap justify-between items-center">
+      <div className="flex mx-28 flex-wrap justify-between items-center">
         <div className="w-full lg:w-1/2 mb-6 lg:mb-0">
           <h2 className="text-2xl font-bold mb-2">Impact HR</h2>
           <p className="mb-4">Subscribe to get new Updates</p>
@@ -43,12 +43,12 @@ const Footer: React.FC = () => {
               </a>
             </li>
             <li className="inline-block">
-              <a href="#tools" className="hover:text-gray-700">
-                Tool catalogue
+              <a href="#solution" className="hover:text-gray-700">
+                Solution
               </a>
             </li>
             <li className="inline-block">
-              <a href="#why" className="hover:text-gray-700">
+              <a href="#whyus" className="hover:text-gray-700">
                 Why Us?
               </a>
             </li>

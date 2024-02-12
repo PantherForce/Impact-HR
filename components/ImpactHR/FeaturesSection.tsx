@@ -9,14 +9,14 @@ import ContentContainer from "./ContentContainer";
 
 const FeaturesSection: React.FC = () => {
   return (
-    <div className="bg-custom-blue mx-4 md:mx-20  p-8">
+    <div id="whyus" className="bg-custom-blue mx-4 md:mx-20  p-8">
       <h2 className="md:text-4xl text-2xl font-bold text-center mb-10">
-        Why Choose Impact HR?
+        Why choose impact HR?
       </h2>
       <div className="grid justify-items-center grid-cols-1 md:grid-cols-2 gap-8">
         <FeatureCard
           icon={networkIcon}
-          title="Extensive Network"
+          title="Extensive network"
           features={[
             "Wide Network Of Recruitment Solutions",
             "Extensive Knowledge Base",
@@ -24,12 +24,12 @@ const FeaturesSection: React.FC = () => {
         />
         <FeatureCard
           icon={toolsIcon}
-          title="Access To The Latest Tools"
+          title="Access to the latest tools"
           features={["AI-Based Tools", "Latest Recruiting Trends"]}
         />
         <FeatureCard
           icon={processIcon}
-          title="Simplified Process"
+          title="Simplified process"
           features={[
             "Streamlined Candidate Search",
             "Eliminate Unnecessary Expenses",
@@ -37,7 +37,7 @@ const FeaturesSection: React.FC = () => {
         />
         <FeatureCard
           icon={recommendationsIcon}
-          title="Expert Recommendations"
+          title="Expert recommendations"
           features={[
             "Continuous Evaluation Of Software",
             "Find Tailored Solutions",

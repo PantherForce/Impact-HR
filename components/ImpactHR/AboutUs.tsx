@@ -3,7 +3,7 @@ import ContentContainer from "./ContentContainer";
 
 const AboutUs = () => {
   return (
-    <div className="flex justify-center items-center flex-col">
+    <div id="about" className="flex justify-center items-center flex-col">
       <ContentContainer>
         <div className="bg-custom-blue  h-[80vh] md:h-[54vh] xl:h-[40vh] ">
           <div className="flex flex-col justify-center items-center">
