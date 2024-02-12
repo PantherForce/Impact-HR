@@ -10,8 +10,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      primary: {
-        lightblue: "#F2FDFF",
+      colors: {
+        "custom-blue": "#F2FDFF", // Replace '#243c5a' with your desired color code
+        "custom-btn": "#00BFE9",
       },
     },
   },
