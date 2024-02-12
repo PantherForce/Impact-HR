@@ -9,9 +9,9 @@ const HearfromUs = () => {
           Hear from our Customers
         </h1>
         <ContentContainer>
-          <div className="rounded-2xl  shadow-2xl p-4 md:p-0 md:h-[50vh] w-full max-w-6xl">
+          <div className="rounded-2xl shadow-2xl mb-20 p-4 md:p-0 md:h-[50vh] w-full max-w-6xl">
             <div className="flex flex-col  justify-center items-center h-full">
-              <h2 className="text-lg sm:text-xl text-center m-4">
+              <h2 className="text-lg sm:text-xl xl:text-2xl font-semibold text-center m-4">
                 Impact HR revolutionized the way we source talent. Their
                 platform connected us with a talent sourcing tool that helped us
                 find exceptional candidates faster than ever before.

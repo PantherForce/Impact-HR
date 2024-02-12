@@ -5,7 +5,7 @@ import ContentContainer from "./ContentContainer";
 const Footer: React.FC = () => {
   return (
     <footer>
-      <div className="flex mx-28 flex-wrap justify-between items-center">
+      <div className="flex mx-10 md:mx-44 flex-wrap justify-between items-center">
         <div className="w-full lg:w-1/2 mb-6 lg:mb-0">
           <h2 className="text-2xl font-bold mb-2">Impact HR</h2>
           <p className="mb-4">Subscribe to get new Updates</p>
@@ -36,8 +36,8 @@ const Footer: React.FC = () => {
 
         {/* Right side: Navigation Links */}
         <nav className="w-full lg:w-1/2 lg:text-right">
-          <ul className="space-y-4 lg:space-y-0 lg:space-x-4">
-            <li className="inline-block">
+          <ul className="space-y-4 flex flex-col md:flex-row justify-evenly  lg:space-y-0 lg:space-x-4">
+            <li className="inline-block ">
               <a href="#about" className="hover:text-gray-700">
                 About us
               </a>

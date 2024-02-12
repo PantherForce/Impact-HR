@@ -5,7 +5,7 @@ const AboutUs = () => {
   return (
     <div id="about" className="flex justify-center items-center flex-col">
       <ContentContainer>
-        <div className="bg-custom-blue  h-[80vh] md:h-[54vh] xl:h-[40vh] ">
+        <div className="bg-custom-blue  h-[80vh] md:h-[30vh] xl:h-[40vh] 2xl:h-[32vh] ">
           <div className="flex flex-col justify-center items-center">
             <h1 className="text-2xl mt-6 md:text-4xl font-bold">About Us</h1>
             <p className=" m-14 text-left md:text-center">

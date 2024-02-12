@@ -18,9 +18,7 @@ const page = () => {
       <NetworkOfResources />
       <FeaturesSection />
       <HearfromUs />
-      <div className="mt-20 mb-20  flex flex-col justify-center">
-        <ContactForm />
-      </div>
+      <ContactForm />
       <Footer />
     </>
   );

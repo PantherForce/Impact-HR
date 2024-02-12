@@ -63,11 +63,10 @@ const ContactForm: React.FC = () => {
     //   </form>
     // </div>
 
-    <div className=" flex justify-center items-center">
+    <div className="flex mt-10 mb-20 mx-4 w-full md:mx-0 justify-center items-center">
       <iframe
+        className="w-3/4 h-[50vh]"
         src="https://docs.google.com/forms/d/e/1FAIpQLSf8wqkUWHa-FHQ-Ojc5J2OgAYd6gB4Fj_LP0HXvHEp-EWVMEQ/viewform?embedded=true"
-        width="640"
-        height="305"
         frameBorder="0"
         marginHeight={0}
         marginWidth={0}

@@ -7,7 +7,7 @@ import ContentContainer from "./ContentContainer";
 
 const RecruitmentBanner: React.FC = () => {
   return (
-    <div className="flex justify-between items-center px-10 md:px-16 py-8">
+    <div className="flex sm:flex flex-col md:flex-row justify-between items-center px-4 md:px-4 py-8">
       <ContentContainer>
         <div className="space-y-4">
           <h1 className="md:text-4xl text-2xl font-bold text-gray-800">
@@ -28,7 +28,7 @@ const RecruitmentBanner: React.FC = () => {
         </div>
       </ContentContainer>
       {/* Replace with your image path */}
-      <div className="hidden lg:block">
+      <div className=" sm:block">
         <Image src={hero} alt="Recruitment Image" width={600} height={300} />
       </div>
     </div>
