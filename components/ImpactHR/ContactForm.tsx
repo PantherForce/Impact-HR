@@ -1,22 +1,6 @@
 import React from "react";
 
 const ContactForm: React.FC = () => {
-  const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-  ) => {
-    const { name, value } = e.target;
-    setFormData((prevData) => ({
-      ...prevData,
-      [name]: value,
-    }));
-  };
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Handle the form submission
-    console.log(formData);
-  };
-
   return (
     <div className="max-w-4xl mx-auto my-10 p-10 bg-black rounded-2xl shadow-md">
       <h2 className="text-3xl font-semibold text-center text-white mb-4">
